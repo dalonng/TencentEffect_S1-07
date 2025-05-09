@@ -1,0 +1,6 @@
+framework module XMagic {
+  umbrella header "XMagic-umbrella.h"
+
+  export *
+  module * { export * }
+}

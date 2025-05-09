@@ -1,0 +1,2 @@
+XMagic.xcframework/ios-arm64/XMagic.framework/XMagic filter=lfs diff=lfs merge=lfs -text
+XMagic.xcframework/ios-arm64_x86_64-simulator/XMagic.framework/XMagic filter=lfs diff=lfs merge=lfs -text

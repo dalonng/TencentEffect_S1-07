@@ -1,0 +1,64 @@
+{
+	"abilities": {
+		"opt.program_cache": {
+			"default": true
+		},
+		"opt.decoder_cache": {
+			"default": true
+		},
+		"opt.fb_pool_shrink": {
+			"default": true
+		},
+		"opt.fast_file_read": {
+			"default": true
+		},
+		"opt.async_report": {
+			"default": true
+		},
+		"opt.gpu_read_pixel": {
+			"default": true
+		},
+		"opt.ios_preload_image": {
+			"default": true
+		},
+		"opt.sticker_perf_opt": {
+			"default": true
+		},
+		"opt.pag_async_release": {
+			"default": false
+		},
+		"opt.audio_cache": {
+			"default": true
+		},
+		"opt.pag_merge_render": {
+			"default": false,
+			"exception": {
+				"type": "thousandth",
+				"op": ">=",
+				"value": 199
+			}
+		},
+		"bugfix.ignore_time_infinity": {
+			"default": true
+		},
+		"opt.img_auto_crop": {
+			"default": false,
+			"exception": {
+				"type": "thousandth",
+				"op": ">=",
+				"value": 199
+			}
+		},
+		"opt.video_lag": {
+			"default": false,
+			"exception": {
+				"type": "thousandth",
+				"op": ">=",
+				"value": 799
+			}
+		},
+		"opt.system_crop": {
+			"default": true
+		}
+	}
+}
