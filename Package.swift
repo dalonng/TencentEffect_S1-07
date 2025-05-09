@@ -32,7 +32,7 @@ let package = Package(
         .target(
             name: "TencentEffect_S1_07",
             dependencies: [
-                "libpag",
+               "libpag",
                 "TECodec",
                 "XMagic",
                 "YTCommonXMagic"
