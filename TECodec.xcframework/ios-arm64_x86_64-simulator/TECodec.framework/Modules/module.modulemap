@@ -1,0 +1,6 @@
+framework module TECodec {
+  umbrella header "XmagicCodec.h"
+
+  export *
+  module * { export * }
+}
